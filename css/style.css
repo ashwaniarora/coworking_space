@@ -1,0 +1,186 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.header-part{
+    border-bottom: 1px solid lightgray;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header ::selection{
+    background-color: #F88379;
+    color: white;
+}
+
+.website-name
+{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+a.assignment-name:hover{
+    color: #F5F5F5;
+}
+
+.assignment-intro{
+    font-family: sans-serif;
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+}
+
+.author-name{
+    color: #DC143C;
+}
+.office-layout{
+    width: 90px;
+    height: auto;
+    border-radius: 10%;
+    padding-right: 5px;
+}
+
+li:active {
+    border:1px solid #DC143C;
+  }
+
+.office-intro{
+    background-color: lightgray;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.office-image{
+    align-self: flex-start;
+    padding:100px 120px 50px 50px;
+}
+
+.office-intro-text{
+    color: #505050;
+    margin-right: 320px;
+}
+
+.city{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.office-name{
+    padding-top: 10px;
+    font-family: 'Benne', serif;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.office-name-about{
+    font-family: 'Benne', serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.office-desc{
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.office-desc-span{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.availability-link{
+    display: flex;
+    align-items: center;
+}
+
+.availability-span{
+    font-family: sans-serif;
+    color: #505050;
+    font-size: 13px;
+}
+
+.office-features{
+    padding: 10px 400px 150px 300px;
+}
+
+.office-feat-text{
+    padding-top: 30px;
+    font-family: 'Benne', serif;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.office-description{
+    display: flex;
+    flex-direction: row;
+}
+
+.office-desc-article{
+    margin-left: 400px;
+    color: #505050;
+    width: 600px;
+}
+
+.office-suite{
+   padding-top: 10px;
+   padding-left: 30px;
+   font-family: sans-serif;
+   margin-bottom: 60px;
+   margin-right: 220px;
+   line-height: 25px;
+}
+
+.cutom-suite{
+    font-weight: bold;
+    font-size: 13px;    
+}
+
+.office-footprint{
+    font-family: 'Benne', serif;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 50px;   
+    margin-right: 80px; 
+    padding-left: 30px;
+    border-left: 1px solid black;
+}
+
+.office-creativity{
+    padding-top: 10px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    margin-right: 200px;
+    line-height: 25px;  
+    margin-left: 30px;
+}
+
+.office-img2{
+padding-top: 10px;
+}
